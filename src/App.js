@@ -32,7 +32,10 @@ function App() {
   return (
     <div className="App">
       <h2>Company Profile Report tool, by Zack Kramer</h2>
-      <form onSubmit={(event)=>handleSubmit(event)}>
+      <form 
+        className="Input-Form"
+        onSubmit={(event)=>handleSubmit(event)}
+        >
         <label>Search for a company profile: 
           <input 
             className="input" 

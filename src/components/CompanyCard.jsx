@@ -11,7 +11,7 @@ const CompanyCard = (props) => {
                     <span id="Card-Data__Name" >{<a href={profile.website} >{profile.companyName}</a>}</span>
                     <hr />
                     <span id="Card-Data__Symbol" >{profile.symbol}</span>
-                     <hr />
+                    <hr />
                     <span id="Card-Data__CEO" >{profile.ceo} </span>
                     <hr />
                     <span id="Card-Data__Exchange" >{profile.exchange} </span>

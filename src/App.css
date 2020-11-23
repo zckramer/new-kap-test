@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  max-width: 100vw;
+  max-height: 100vh;
+  /* background-color: lightsteelblue; */
 }
 
-.App-link {
-  color: #61dafb;
+.Input-Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Company-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  max-width: 70%;
+  max-height: 100vh;
+  overflow-y: scroll;
+  margin-left: .5rem;
+  
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.Company-Card__Header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.Company-Card__Company-Name {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.Company-Card__Company-Logo {
+  border: 2px solid black;
+}
+
+.Company-Card__Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  padding-left: 2rem;
 }
