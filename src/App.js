@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Company Profile Report tool, by Zack Kramer</h2>
+      {isTickerDataLoaded ? "" : <h2>Company Profile Report tool, by Zack Kramer</h2>}
       <form 
         className="Input-Form"
         onSubmit={(event)=>handleSubmit(event)}
